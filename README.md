@@ -1,6 +1,6 @@
 # Min SiThu Magazine WordPress Theme
 
-**Min SiThu Magazine** is a clean, fast, responsive WordPress magazine theme for **minsithu.org**.
+**Min SiThu Magazine** is a responsive WordPress magazine theme for **minsithu.org**.
 
 It uses a Facebook-inspired blue/white color system, Apple Finder-style clean cards, Myanmar Unicode typography support, SEO/social preview metadata, security-safe WordPress patterns, and a premium author profile.
 
@@ -15,12 +15,12 @@ It uses a Facebook-inspired blue/white color system, Apple Finder-style clean ca
 - Mobile responsive layout
 - Stable mobile header
 - Myanmar Unicode-ready font stack
-- Fast local SVG icons
+- Local SVG icons
 - SEO and social preview tags
 - Featured image preview for Facebook, X, Reddit, LinkedIn, Telegram, Messenger, and other platforms
 - Default social preview image fallback
 - Auto placeholder images for posts without featured photos
-- Premium author card showing **MIN SITHU**
+- Author card showing **MIN SITHU**
 - Looping Software Engineer-style typewriter text
 - GitHub, Facebook, Medium, LinkedIn, Slack, X, and YouTube social support
 - Favicon and Apple touch icon support
@@ -56,29 +56,6 @@ If an article has no featured image, the theme uses:
 
 ```bash
 find . -name "*.php" -print0 | xargs -0 -n1 php -l
-node -c assets/js/main.js
-```
-
-## Suggested GitHub Repo
-
-Repo name:
-
-```text
-minsithu-magazine-theme
-```
-
-Description:
-
-```text
-Clean Facebook-blue and Apple Finder-style WordPress magazine theme by Min SiThu.
-```
-
-## Push to GitHub
-
-```bash
-git remote add origin https://github.com/itsmeminsithu/minsithu-magazine-theme.git
-git branch -M main
-git push -u origin main
 ```
 
 ## Author
